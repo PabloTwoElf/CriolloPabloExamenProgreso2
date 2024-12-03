@@ -11,12 +11,12 @@
         <ShellContent
           Title="Recargas"
           ContentTemplate="{DataTemplate local:MainPage}"
-          Icon="{OnPlatform 'recarga.png'}" />
+          Icon="{OnPlatform 'telefono_movil.png'}" />
 
         <ShellContent
           Title="GrindLayout"
           ContentTemplate="{DataTemplate local:PCriolloGridLayout}"
-          Icon="{OnPlatform 'about.jpg'}" />
+          Icon="{OnPlatform 'cursor.png'}" />
     </TabBar>
 
 </Shell>
