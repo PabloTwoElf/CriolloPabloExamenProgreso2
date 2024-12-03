@@ -28,7 +28,7 @@
         <Label Grid.Row="0" Grid.Column="1" 
                Text="Alexander"
                FontSize="150"
-               TextColor="Yellow"
+               TextColor="Green"
                HorizontalOptions="FillAndExpand"
                VerticalOptions="FillAndExpand"/>
         
@@ -43,7 +43,7 @@
         <Label Grid.Row="1" Grid.Column="1" 
            Text="Escobar"
            FontSize="150"
-           TextColor="White"
+           TextColor="Red"
            HorizontalOptions="FillAndExpand"
            VerticalOptions="FillAndExpand"/>
 
