@@ -9,22 +9,27 @@ namespace CriolloPabloExamenProgreso2
          ICriolloRecarga _recargaRepository;
           PCriolloRecarga recarga = new PCriolloRecarga();
 
+
         public MainPage()
-        { 
+        {
             InitializeComponent();
             _recargaRepository = new Pcriollo_RepositoryRecarga();
             recarga = _recargaRepository.GetRecarga("1");
             BindingContext = recarga;
         }
 
+
         private async void GuardarRecarga_Clicked(object sender, EventArgs e)
         {
-            PCriolloRecarga  recarga = new PCriolloRecarga()
+            PCriolloRecarga recarga = new PCriolloRecarga()
             {
                 Nombre = EditorNumero.Text,
                 Numero = EditorNombre.Text,
-                
+
             };
+
+         
+
             bool guardar_Recarga = _recargaRepository.CreateRecarga(recarga);
             if (guardar_Recarga)
             {

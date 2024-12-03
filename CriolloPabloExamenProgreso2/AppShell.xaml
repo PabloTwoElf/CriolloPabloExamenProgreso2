@@ -7,9 +7,16 @@
     Shell.FlyoutBehavior="Disabled"
     Title="CriolloPabloExamenProgreso2">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <TabBar>
+        <ShellContent
+          Title="Recargas"
+          ContentTemplate="{DataTemplate local:MainPage}"
+          Icon="{OnPlatform 'recarga.png'}" />
+
+        <ShellContent
+          Title="GrindLayout"
+          ContentTemplate="{DataTemplate local:PCriolloGridLayout}"
+          Icon="{OnPlatform 'about.jpg'}" />
+    </TabBar>
 
 </Shell>

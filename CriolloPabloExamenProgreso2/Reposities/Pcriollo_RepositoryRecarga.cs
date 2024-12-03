@@ -12,8 +12,8 @@ namespace CriolloPabloExamenProgreso2.Reposities
     public class Pcriollo_RepositoryRecarga : ICriolloRecarga
 
     {
-{
-        public bool CreateRecarga(ICriolloRecarga recarga)
+
+        public bool CreateRecarga(PCriolloRecarga recarga)
         {
             try
             {
@@ -40,16 +40,20 @@ namespace CriolloPabloExamenProgreso2.Reposities
                 string josn_data = File.ReadAllText(_fileName);
                 recarga = JsonConvert.DeserializeObject<PCriolloRecarga>(josn_data);
             }
-            throw new NotImplementedException();
+            return recarga;
         }
 
         public bool UpdateRecarga(ICriolloRecarga recarga)
         {
             throw new NotImplementedException();
         }
-    
 
-    private string _fileName = Path.Combine(FileSystem.AppDataDirectory, "PCriollo.txt");
+        public bool UpdateRecarga(PCriolloRecarga recarga)
+        {
+            throw new NotImplementedException();
+        }
+
+        private string _fileName = Path.Combine(FileSystem.AppDataDirectory, "PCriollo.txt");
 
 
     }

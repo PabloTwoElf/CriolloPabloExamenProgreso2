@@ -19,7 +19,7 @@
 
             <Editor
                 x:Name="EditorNombre"
-                Placeholder=" Ingresa el numero a RECARGAR "
+                Placeholder=" Ingresa el Nombre del acreditador de la RECARGA "
                 AutoSize="TextChanges"
                 HeightRequest="35"                
                 />
@@ -37,11 +37,7 @@
                 Text="Se realizo la ultima recarga a : "
                 />
 
-            <Label
-                Text="Welcome to &#10;.NET Multi-platform App UI"
-                Style="{StaticResource SubHeadline}"
-                SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Welcome to dot net Multi platform App U I" />
+            
 
             <Label
                 x:Name="NumeroTelefono"

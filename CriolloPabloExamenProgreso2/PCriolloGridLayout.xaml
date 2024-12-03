@@ -40,7 +40,7 @@
            HorizontalOptions="FillAndExpand"
            VerticalOptions="FillAndExpand"/>
         
-        <Label Grid.Row="1" Grid.Column="0" 
+        <Label Grid.Row="1" Grid.Column="1" 
            Text="Escobar"
            FontSize="150"
            TextColor="White"

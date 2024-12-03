@@ -10,8 +10,8 @@ namespace CriolloPabloExamenProgreso2.Interfaces
     public interface ICriolloRecarga
     {
         PCriolloRecarga GetRecarga(string numero);
-        bool CreateRecarga(ICriolloRecarga recarga);
-        bool UpdateRecarga(ICriolloRecarga recarga);
+        bool CreateRecarga(PCriolloRecarga recarga);
+        bool UpdateRecarga(PCriolloRecarga recarga);
         bool DeleteRecarga(string numero);
 
 
