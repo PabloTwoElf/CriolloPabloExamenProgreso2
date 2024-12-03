@@ -22,12 +22,16 @@
                HorizontalOptions="FillAndExpand"
                VerticalOptions="FillAndExpand"/>
 
+
+
+
         <Label Grid.Row="0" Grid.Column="1" 
                Text="Alexander"
                FontSize="150"
                TextColor="Yellow"
                HorizontalOptions="FillAndExpand"
                VerticalOptions="FillAndExpand"/>
+        
 
         <Label Grid.Row="1" Grid.Column="0" 
            Text="Criollo"
