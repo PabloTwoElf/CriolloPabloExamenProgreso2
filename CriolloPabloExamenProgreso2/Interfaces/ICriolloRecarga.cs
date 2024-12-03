@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CriolloPabloExamenProgreso2.Interfaces
 {
-    internal interface ICriolloRecarga
+    public interface ICriolloRecarga
     {
         PCriolloRecarga GetRecarga(string numero);
         bool CreateRecarga(ICriolloRecarga recarga);

@@ -56,8 +56,8 @@
                 x:Name="GuardarRecarga"
                 Text="Guardar Recarga"
                 Clicked="GuardarRecarga_Clicked"
-                
-                
+    
+    
                 />
 
         </VerticalStackLayout>
